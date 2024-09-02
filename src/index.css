@@ -29,11 +29,9 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  justify-content: center;
   min-width: 320px;
+  max-width: 80%;
+  margin: auto;
   min-height: 100vh;
 }
 
@@ -76,4 +74,23 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.pagination {
+  max-width: 70%;
+  margin-left: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.table-bottom {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
 }
